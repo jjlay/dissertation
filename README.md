@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-Chapter 1 : Introduction
+[Chapter 1 : Introduction](https://github.com/jjlay/dissertation/tree/main/Chapter_01_Introduction)
 Chapter 2 : Computing Architectures
 Chapter 3 : Multilevel Monte Carlo
 Chapter 4 : Applications in Finance
