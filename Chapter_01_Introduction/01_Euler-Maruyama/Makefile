@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++20
+CFLAGS = -std=c++2a
 
 SimpleMC : SimpleMC.o
 	$(CC) $(CFLAGS) -o SimpleMC SimpleMC.o
