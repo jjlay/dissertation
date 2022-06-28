@@ -1,3 +1,5 @@
 *.o
 SimpleMC
-
+*.exe
+Debug
+*.dSYM
