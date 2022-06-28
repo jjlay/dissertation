@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# Miscellaneous
+.DS_Store
+
+# VS Code
+dryrun.log
+configurationCache.log
+targets.log
+*.dSYM
+
+
