@@ -4,6 +4,46 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Euler-Maruyama", "Chapter_01_Introduction\01_Euler-Maruyama\01_Euler-Maruyama.vcxproj", "{698293B5-BDA3-47FE-898B-CD17DEC388D1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 01 Introduction", "Chapter 01 Introduction", "{DCFB0749-CE67-4904-8593-70D83C6230D9}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_01_Introduction\README.md = Chapter_01_Introduction\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76A96B72-8D34-4DA5-8021-A2A6707F54FA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 02 Computing Architectures", "Chapter 02 Computing Architectures", "{8A2C9211-B059-46E6-8BE0-B1F36BA57589}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_02_Computing_Architectures\README.md = Chapter_02_Computing_Architectures\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 03 Multilevel Monte Carlo", "Chapter 03 Multilevel Monte Carlo", "{546D5045-85B5-43D4-A5CE-E375D2288F49}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_03_Multilevel_Monte_Carlo\README.md = Chapter_03_Multilevel_Monte_Carlo\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 04 Applications in Finance", "Chapter 04 Applications in Finance", "{DA736A15-E34C-4260-9185-08518D74A90D}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_04_Applications_in_Finance\README.md = Chapter_04_Applications_in_Finance\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 05 Applications in Inventory Management", "Chapter 05 Applications in Inventory Management", "{2B3A71AD-4063-4497-BD49-455DDFC9552F}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_05_Applications_in_Inventory_Management\README.md = Chapter_05_Applications_in_Inventory_Management\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 06 Conclusion", "Chapter 06 Conclusion", "{E1FFAEBE-CD0A-41AE-A476-F645C3C2E1D4}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_06_Conclusion\README.md = Chapter_06_Conclusion\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 07 Appendix", "Chapter 07 Appendix", "{FBC3F396-914D-4C06-8222-DF5E264910D7}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_07_Appendix\README.md = Chapter_07_Appendix\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,6 +63,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{698293B5-BDA3-47FE-898B-CD17DEC388D1} = {DCFB0749-CE67-4904-8593-70D83C6230D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B6B614F-3024-4CB6-9C01-17C86BE63795}
