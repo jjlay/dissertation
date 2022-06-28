@@ -1,0 +1,10 @@
+#!/bin/sh
+#PBS -q C19
+#PBS -l walltime=00:00:30
+#PBS -N SimpleMC
+#PBS -o SimpleMC_out.txt
+#PBS -e SimpleMC_err.txt
+
+/home/jjlay/src/dissertation/Chapter_01_Introduction/01_Euler-Maruyama/SimpleMC
+
+
