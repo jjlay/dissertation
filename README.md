@@ -90,6 +90,8 @@ Also see:
 | Project | Status | Commment |
 |---------|--------|----------|
 | WelfordTest | Not Copied | Validates the Welford algorithm  |
+| parameterProcessing | Not Copied | Process command line parameters |
+| sdeParameterEstimation | Not Copied | Estimate parameters for an sde |
 
 
 
