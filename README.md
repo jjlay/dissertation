@@ -89,7 +89,7 @@ Also see:
 
 | Project | Status | Commment |
 |---------|--------|----------|
-| WelfordTest | Not Copied | Validates the Welford algorithm  |
+| WelfordTest | Finished | Validates the Welford algorithm for one pass standard deviation estimation |
 | parameterProcessing | Not Copied | Process command line parameters |
 | sdeParameterEstimation | Not Copied | Estimate parameters for an sde |
 
