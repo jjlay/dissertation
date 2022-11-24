@@ -85,11 +85,11 @@ Also see:
 |---------|--------|----------|
 
 
-## Appendix
+## [Appendix](https://github.com/jjlay/dissertation/tree/main/chapp)
 
 | Project | Status | Commment |
 |---------|--------|----------|
-| WelfordTest | Finished | Validates the Welford algorithm for one pass standard deviation estimation |
+| [WelfordTest](https://github.com/jjlay/dissertation/tree/main/chapp/WelfordTest) | Finished | Validates the Welford algorithm for one pass standard deviation estimation |
 | parameterProcessing | Not Copied | Process command line parameters |
 | sdeParameterEstimation | Not Copied | Estimate parameters for an sde |
 
