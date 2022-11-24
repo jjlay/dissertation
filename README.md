@@ -90,8 +90,9 @@ Also see:
 | Project | Status | Commment |
 |---------|--------|----------|
 | [WelfordTest](https://github.com/jjlay/dissertation/tree/main/chapp/WelfordTest) | Finished | Validates the Welford algorithm for one pass standard deviation estimation |
-| parameterProcessing | Not Copied | Process command line parameters |
+| parseRowTest | Copied. Compile error on Linux. |  |
 | sdeParameterEstimation | Not Copied | Estimate parameters for an sde |
+| parameterProcessing | Not Copied | Process command line parameters |
 
 
 
