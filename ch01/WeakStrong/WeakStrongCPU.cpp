@@ -40,11 +40,21 @@
 // Function: main()
 //
 // Parameters:
+//    Parameter 0 : Command
+//    Parameter 1 : Number of steps
+//    Parameter 2 : Number of samples
 //
 // Returns:
 //
 
 int main(int argc, char* argv[]) {
+
+	std::cout << "Number of command line parameters: " << argc << std::endl;
+
+	for (int i = 0; i < argc; i++)
+		std::cout << "Parameter " << i << ": " << argv[i] << std::endl;
+
+	std::cout << std::endl;
 
 	// Random number
 
@@ -54,9 +64,14 @@ int main(int argc, char* argv[]) {
 
 	// Monte Carlo Parameters
 
-	const unsigned int numberSteps = 500;
-	const unsigned int numberSamples = static_cast<unsigned int>(1E5);
+	unsigned int numberSteps = 500;
+	unsigned int numberSamples = static_cast<unsigned int>(1E5);
 
+	if (argc > 0)
+		numberSteps = atoi(argv[1]);
+
+	if (argc > 1)
+		numberSamples = atoi(argv[2]);
 
 	// Black-Scholes Parameters
 
