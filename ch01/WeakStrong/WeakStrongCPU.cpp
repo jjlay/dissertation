@@ -67,10 +67,10 @@ int main(int argc, char* argv[]) {
 	unsigned int numberSteps = 500;
 	unsigned int numberSamples = static_cast<unsigned int>(1E5);
 
-	if (argc > 0)
+	if (argc >= 2)
 		numberSteps = atoi(argv[1]);
 
-	if (argc > 1)
+	if (argc >= 3)
 		numberSamples = atoi(argv[2]);
 
 	// Black-Scholes Parameters
