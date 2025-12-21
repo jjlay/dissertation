@@ -85,12 +85,12 @@ Also see:
 |---------|--------|----------|
 
 
-## [Appendix]
+## Appendix
 
 | Project | Status | Commment |
 |---------|--------|----------|
-| | Not copied | Validates the Welford algorithm for one pass standard deviation estimation |
-|  | Not copied |  |
-| | Not copied | Estimate parameters for an sde |
-| | Not copied | Process command line parameters |
+| Appendix | Not copied | Validates the Welford algorithm for one pass standard deviation estimation |
+| Appendix | Not copied |  |
+| Appendix | Not copied | Estimate parameters for an sde |
+| Appendix | Not copied | Process command line parameters |
 
